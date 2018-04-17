@@ -12,7 +12,7 @@ let sliderGreen;
 let sliderBlue;
 
 let sliderY = 300;
-let sliderSpacing = 145;
+let sliderSpacing = 146;
 
 let rColor;
 let gColor;
