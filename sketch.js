@@ -12,7 +12,7 @@ let sliderGreen;
 let sliderBlue;
 
 let sliderY = 300;
-let sliderSpacing = 130;
+let sliderSpacing = 145;
 
 let rColor;
 let gColor;
@@ -45,15 +45,15 @@ function draw() {
 
     ellipse(x, y, 25);
 
-    canvas.position(20, 275);
+    canvas.position(20, 300);
 
-    sliderRed.position(450, sliderY - 10); 
-    sliderGreen.position(450, sliderY + sliderSpacing - 10); 
-    sliderBlue.position(450, sliderY + sliderSpacing * 2 -10); 
+    sliderRed.position(470, sliderY - 10); 
+    sliderGreen.position(470, sliderY + sliderSpacing - 10); 
+    sliderBlue.position(470, sliderY + sliderSpacing * 2 -10); 
 
-    pRed.position(480, sliderY);
-    pGreen.position(480, sliderY + sliderSpacing);
-    pBlue.position(480, sliderY + sliderSpacing * 2);
+    pRed.position(500, sliderY);
+    pGreen.position(500, sliderY + sliderSpacing);
+    pBlue.position(500, sliderY + sliderSpacing * 2);
 
     x = noise(xoff)*300;
     y = noise(yoff)*200;
