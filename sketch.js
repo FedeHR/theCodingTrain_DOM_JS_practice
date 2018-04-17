@@ -11,7 +11,7 @@ let sliderRed;
 let sliderGreen;
 let sliderBlue;
 
-let sliderY = 260;
+let sliderY = 300;
 let sliderSpacing = 130;
 
 let rColor;
@@ -45,7 +45,7 @@ function draw() {
 
     ellipse(x, y, 25);
 
-    canvas.position(20, 255);
+    canvas.position(20, 275);
 
     sliderRed.position(450, sliderY - 10); 
     sliderGreen.position(450, sliderY + sliderSpacing - 10); 
