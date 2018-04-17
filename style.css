@@ -1,0 +1,30 @@
+body {
+    margin:20px;
+    padding:0;
+    overflow: hidden;
+    background-color: #313131;
+}
+canvas {
+    margin:auto;
+}
+
+p {
+    color: aliceblue;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h1 {
+    color: #FF4B7D;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+button {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 500;
+    font-size: 16px;
+}
