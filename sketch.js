@@ -11,16 +11,18 @@ let sliderRed;
 let sliderGreen;
 let sliderBlue;
 
-let sliderY = 300;
+let sliderY = 280;
 let sliderSpacing = 146;
 
 let rColor;
 let gColor;
 let bColor;
 
+canvasWidth = 400;
+canvasHeight = 300;
+
 function setup() {
-    canvas = createCanvas(400, 300);
-    p1 = createP('Have fun with the point!');
+    canvas = createCanvas(canvasWidth, canvasHeight);
 
     button1 = createButton('Move faster');
     button2 = createButton('Move slower');
@@ -45,15 +47,16 @@ function draw() {
 
     ellipse(x, y, 25);
 
-    canvas.position(20, 300);
+    button1.position(76, 615);
+    button2.position(276, 615)
 
     sliderRed.position(470, sliderY - 10); 
     sliderGreen.position(470, sliderY + sliderSpacing - 10); 
     sliderBlue.position(470, sliderY + sliderSpacing * 2 -10); 
 
-    pRed.position(500, sliderY);
-    pGreen.position(500, sliderY + sliderSpacing);
-    pBlue.position(500, sliderY + sliderSpacing * 2);
+    pRed.position(493, sliderY);
+    pGreen.position(485, sliderY + sliderSpacing);
+    pBlue.position(492, sliderY + sliderSpacing * 2);
 
     x = noise(xoff)*300;
     y = noise(yoff)*200;

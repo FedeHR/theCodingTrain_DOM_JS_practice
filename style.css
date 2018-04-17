@@ -1,18 +1,18 @@
 body {
-    margin:20px;
+    margin:30px;
     padding:0;
     overflow: hidden;
     background-color: #313131;
 }
 canvas {
-    margin:auto;
+    margin-top: 2%;
 }
 
 p {
     color: aliceblue;
     font-family: 'Slabo 27px', serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h1 {
@@ -26,5 +26,12 @@ h1 {
 button {
     font-family: 'Slabo 27px', serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
+    width: 110px;
 }
+
+.p1 {
+    margin-top: 2%;
+    font-style: italic;
+}
+
